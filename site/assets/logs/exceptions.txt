@@ -1,0 +1,7 @@
+2024-10-05 15:28:37	admin	https://schule-flaach-web.ddev.site/ich-suche/	Unknown Selector operator: '[empty]' -- was your selector value properly escaped? field='ich', value='-suche/eintraege', selector: 'ich-suche/eintraege' (in /wire/core/Selectors.php line 222)
+2024-10-27 14:39:55	admin	https://schule-flaach-web.ddev.site/ich-suche/?weekday=0&offer_type=1&location=0&age=0	Field does not exist: body (in /wire/core/PageFinder.php line 3733)
+2024-10-27 14:50:08	admin	https://schule-flaach-web.ddev.site/ich-suche/?weekday=0&offer_type=0&location=0&age=0	Field does not exist: location (in /wire/core/PageFinder.php line 3733)
+2024-10-27 14:50:26	admin	https://schule-flaach-web.ddev.site/ich-suche/?weekday=0&offer_type=0&location=0&age=0	Field does not exist: location (in /wire/core/PageFinder.php line 3733)
+2024-10-27 14:50:42	admin	https://schule-flaach-web.ddev.site/ich-suche/?weekday=0&offer_type=0&location=0&age=0	Field does not exist: location (in /wire/core/PageFinder.php line 3733)
+2024-10-27 14:51:39	admin	https://schule-flaach-web.ddev.site/ich-suche/?weekday=0&offer_type=0&location=0&age=0	Field does not exist: location (in /wire/core/PageFinder.php line 3733)
+2024-10-27 16:05:14	admin	https://schule-flaach-web.ddev.site/processwire/page/sort/	Your sort was not saved because these pages are automatically sorted by published. (in /wire/modules/Process/ProcessPageSort.module line 135)

@@ -1,0 +1,15 @@
+2024-09-22 15:37:07	admin	https://schule-flaach-web.ddev.site/form-builder/submit-offer/	submit-offer: Cannot save to page because template='offers' or parent='' is empty
+2024-09-22 15:37:46	admin	https://schule-flaach-web.ddev.site/processwire/setup/form-builder/listEntries/?id=1	submit-offer: Cannot save to page because template='offers' or parent='' is empty
+2024-09-22 15:39:08	admin	https://schule-flaach-web.ddev.site/processwire/setup/form-builder/listEntries/?id=1	submit-offer: Cannot save to page because template='offer' or parent='' is empty
+2024-09-22 15:41:08	admin	https://schule-flaach-web.ddev.site/processwire/setup/form-builder/listEntries/?id=1	submit-offer: Cannot save to page because template='offer' or parent='' is empty
+2024-09-22 15:48:54	admin	https://schule-flaach-web.ddev.site/form-builder/submit-offer/	submit-offer: Cannot save entry to new page because no page status is defined
+2024-10-05 15:24:55	admin	https://schule-flaach-web.ddev.site/form-builder/ich-suche/	ich-suche: Cannot save entry to new page because no page status is defined
+2024-10-05 16:25:40	admin	https://schule-flaach-web.ddev.site/form-builder/ich-suche/	ich-suche: Cannot save entry to new page because no page status is defined
+2024-10-27 15:29:50	admin	https://schule-flaach-web.ddev.site/form-builder/ich-suche/	ich-suche: Cannot save entry to new page because no page status is defined
+2024-10-27 15:32:28	admin	https://schule-flaach-web.ddev.site/form-builder/ich-suche/	ich-suche: Cannot save entry to new page because no page status is defined
+2024-10-27 15:35:57	admin	https://schule-flaach-web.ddev.site/form-builder/ich-suche/	ich-suche: Cannot save entry to new page because no page status is defined
+2024-10-27 15:38:17	admin	https://schule-flaach-web.ddev.site/form-builder/ich-suche/	ich-suche: Cannot save entry to new page because no page status is defined
+2024-10-27 15:41:08	admin	https://schule-flaach-web.ddev.site/form-builder/ich-suche/	ich-suche: Cannot save entry to new page because no page status is defined
+2024-10-27 15:42:48	admin	https://schule-flaach-web.ddev.site/form-builder/ich-suche/	ich-suche: Cannot save entry to new page because no page status is defined
+2024-10-27 15:44:29	admin	https://schule-flaach-web.ddev.site/form-builder/ich-suche/	ich-suche: Cannot save entry to new page because no page status is defined
+2024-10-27 16:03:39	admin	https://schule-flaach-web.ddev.site/form-builder/ich-suche/	ich-suche: Cannot save entry to new page because no page status is defined
