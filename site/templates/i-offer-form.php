@@ -31,7 +31,7 @@ namespace ProcessWire; ?>
               Bitte beachte, dass die Kontaktperson, die Telefonnummer und die E-Mail-Adresse veröffentlicht werden.
             </p>
 
-            <?php echo $forms->embed('ich-suche'); ?>
+            <?php echo $forms->embed('ich-biete'); ?>
 
           </div>
         </div>

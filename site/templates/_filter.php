@@ -36,7 +36,11 @@ if ($pageUrl === "/ich-biete/") {
 }
 
 if ($pageUrl === "/angebote/") {
+
+    // Filter by publish_from and publish_to and sort by created date
+    $selector .= ", sort=-created, publish_from<=now, publish_to>=now";
     $entries = $pages->get('/angebote/eintraege')->children($selector);
+
 }
 
 ?>
@@ -91,7 +95,7 @@ if ($pageUrl === "/angebote/") {
                 </select>
             </div>
 
-            <button type="submit" class="theme-btn" style="">Filtern</button>
+            <button type="submit" class="theme-btn bg-orange-copper-linear" style="">Filtern</button>
         </form>
     </div>
 </div>

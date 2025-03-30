@@ -1,5 +1,8 @@
 <?php
 namespace ProcessWire;
+
+// Filter by publish_from and publish_to and sort by created date
+$entries = $pages->get('/ich-suche/eintraege')->children("sort=-created, publish_from<=now, publish_to>=now");
 ?>
 
 <div id="content">
@@ -29,14 +32,14 @@ namespace ProcessWire;
             </p> -->
             <div>
               <p>Suchst du nach etwas?</p>
-              <p><a class="theme-btn-s2" href="<?= $pages->get('/ich-suche/formular')->url ?>">Zum Formular</a></p>
+              <p><a class="theme-btn-s2 bg-green-sage-linear" href="<?= $pages->get('/ich-suche/formular')->url ?>">Zum
+                  Formular</a></p>
             </div>
           </div>
 
         </div>
       </div>
 
-      <?php include('./_filter.php') ?>
 
       <div class="wpo-event-wrap" style="margin-top: 20px;">
         <div class="row justify-content-center">
@@ -45,6 +48,8 @@ namespace ProcessWire;
             <?php if (count($entries) === 0): ?>
               <p>Es wurden keine Einträge gefunden.</p>
             <?php endif; ?>
+
+
 
             <?php foreach ($entries as $child): ?>
               <?php include('./_entry-card.php') ?>

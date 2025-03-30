@@ -23,11 +23,6 @@ namespace ProcessWire;
                     <div class="wpo-section-title">
                         <span>Agenda</span>
                         <h2>Termine und Veranstaltungen</h2>
-                        <!-- <p>
-              Laborum do tempor veniam irure anim. Laborum do tempor veniam
-              irure anim.
-            </p> -->
-
                     </div>
 
                 </div>

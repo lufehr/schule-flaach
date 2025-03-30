@@ -25,12 +25,13 @@ namespace ProcessWire;
             </div>
             <div class="wpo-hero-subtitle">
               <p>
-                We help local nonprofits access the funding, tools,
-                training, and support they need to become more.
+                Amet aute occaecat esse ea voluptate elit ex sint adipisicing exercitation Lorem dolor cillum voluptate
+                non.
               </p>
             </div>
             <div class="btns">
-              <a href="about.html" class="btn theme-btn-s2">Get Started</a>
+              <a href="<?= $pages->get('/ueber-uns')->url() ?>" class="btn theme-btn-s2 bg-green-sage-linear">Über
+                uns</a>
             </div>
           </div>
         </div>
@@ -61,50 +62,50 @@ namespace ProcessWire;
     <div class="container">
       <div class="row">
         <div class="col col-xl-3 col-lg-6 col-sm-6 col-12">
-          <div class="wpo-features-item">
+          <div class="wpo-features-item home-item-one">
             <div class="wpo-features-icon">
               <div class="icon">
                 <i class="fi flaticon-search"></i>
               </div>
             </div>
             <div class="wpo-features-text">
-              <h2><a href="service-single.html">Ich suche...</a></h2>
+              <h2><a href="<?= $pages->get('ich-suche')->url ?>">Ich suche...</a></h2>
             </div>
           </div>
         </div>
         <div class="col col-xl-3 col-lg-6 col-sm-6 col-12">
-          <div class="wpo-features-item">
+          <div class="wpo-features-item home-item-two">
             <div class="wpo-features-icon">
               <div class="icon">
                 <i class="fi flaticon-comment-white-oval-bubble"></i>
               </div>
             </div>
             <div class="wpo-features-text">
-              <h2><a href="service-single.html">Ich biete...</a></h2>
+              <h2><a href="<?= $pages->get('ich-biete')->url ?>">Ich biete...</a></h2>
             </div>
           </div>
         </div>
         <div class="col col-xl-3 col-lg-6 col-sm-6 col-12">
-          <div class="wpo-features-item">
+          <div class="wpo-features-item home-item-three">
             <div class="wpo-features-icon">
               <div class="icon">
                 <i class="fi flaticon-location"></i>
               </div>
             </div>
             <div class="wpo-features-text">
-              <h2><a href="service-single.html">Angebote...</a></h2>
+              <h2><a href="<?= $pages->get('angebote')->url ?>">Angebote...</a></h2>
             </div>
           </div>
         </div>
         <div class="col col-xl-3 col-lg-6 col-sm-6 col-12">
-          <div class="wpo-features-item">
+          <div class="wpo-features-item home-item-four">
             <div class="wpo-features-icon">
               <div class="icon">
                 <i class="fi flaticon-calendar"></i>
               </div>
             </div>
             <div class="wpo-features-text">
-              <h2><a href="service-single.html">Agenda...</a></h2>
+              <h2><a href="<?= $pages->get('agenda')->url ?>l">Agenda...</a></h2>
             </div>
           </div>
         </div>
@@ -123,22 +124,19 @@ namespace ProcessWire;
         </div>
         <div class="col-lg-6 col-md-12 col-12">
           <div class="wpo-about-text">
-            <span>About Us</span>
-            <h2>We Can Save More Lifes With Your Helping Hand.</h2>
+            <span>Über uns</span>
+            <h2>Bildungslandschaft Flaachtal</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-              maecenas accumsan lacus vel facilisis.
+              Bildungslandschaft von klein bis gross
             </p>
             <ul>
-              <li>The standard chunk of Lorem Ipsum used since.</li>
+              <li>Punkt 1</li>
               <li>
-                Randomised words which don't look even slightly believable.
+                Punkt 2
               </li>
-              <li>Making this the first true generator on the Internet.</li>
+              <li>Punkt 3</li>
             </ul>
-            <a class="theme-btn-s2" href="about.html">More About</a>
+            <a class="theme-btn-s2" href="<?= $pages->get('/about-us')->url() ?>">Mehr über uns</a>
           </div>
         </div>
       </div>
@@ -149,7 +147,7 @@ namespace ProcessWire;
 
   <!-- wpo-campaign-area end -->
   <!-- wpo-team-area start -->
-  <div class="wpo-team-area section-padding">
+  <!-- <div class="wpo-team-area section-padding">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6">
@@ -166,10 +164,10 @@ namespace ProcessWire;
       </div>
 
     </div>
-  </div>
+  </div> -->
   <!-- wpo-team-area end -->
   <!-- wpo-testimonial-area start -->
-  <div class="wpo-testimonial-area section-padding">
+  <!-- <div class="wpo-testimonial-area section-padding">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6">
@@ -186,18 +184,18 @@ namespace ProcessWire;
       </div>
 
     </div>
-  </div>
+  </div> -->
   <!-- wpo-testimonial-area end -->
 
   <!-- wpo-cta-area end -->
-  <div class="wpo-cta-area">
+  <!-- <div class="wpo-cta-area">
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
           <div class="wpo-cta-section">
             <div class="wpo-cta-content">
               <h2>Jetzt mitmachen</h2>
-              <a href="volunteer.html">Become A Volunteer</a>
+              <a href="volunteer.html">Ich suche</a>
             </div>
             <div class="volunteer-img">
               <img src="assets/images/volunteer.png" alt="" />
@@ -209,89 +207,53 @@ namespace ProcessWire;
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- wpo-cta-area end -->
   <!-- wpo-event-area start -->
-  <div class="wpo-event-area">
+  <div class="wpo-event-area" style="margin-top: 50px;">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <div class="wpo-section-title">
             <span>Agenda</span>
-            <h2>Nächste Termine</h2>
-            <p>
-              There are many variations of passages of Lorem Ipsum
-              available, but the majority have suffered alteration in some
-              form,
-            </p>
+            <h2>Nächste Termine und Veranstaltungen</h2>
+
           </div>
         </div>
       </div>
       <div class="wpo-event-wrap">
         <div class="row">
-          <div class="col col-lg-6 col-md-6 col-12">
-            <div class="wpo-event-single">
-              <div class="wpo-event-item">
-                <div class="wpo-event-img">
-                  <img src="assets/images/event/img-1.jpg" alt="" />
-                  <span class="thumb">24 <span>Nov</span></span>
-                </div>
-                <div class="wpo-event-content">
-                  <div class="wpo-event-text-top">
-                    <h2>
-                      <a href="event-single.html">Help The Poor From Your Soal</a>
-                    </h2>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available.
-                    </p>
+
+          <?php foreach ($pages->get('/agenda')->children("limit=4") as $child): ?>
+
+            <div class="col col-lg-3 col-md-6 col-12">
+              <div class="wpo-event-single">
+                <div class="wpo-event-item">
+
+                  <div class="wpo-event-content">
+                    <div class="wpo-event-text-top">
+                      <span>
+                        <?= $child->date_from ?>
+                      </span>
+                      <h2>
+                        <a href="<?= $child->url ?>">
+                          <?= $child->title ?>
+                        </a>
+                      </h2>
+                      <p>
+                        <?= $child->text ?>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col col-lg-3 col-md-6 col-12">
-            <div class="wpo-event-single">
-              <div class="wpo-event-item">
-                <div class="wpo-event-img">
-                  <img src="assets/images/event/img-2.jpg" alt="" />
-                </div>
-                <div class="wpo-event-content">
-                  <div class="wpo-event-text-top">
-                    <span>24 Nov, 2021</span>
-                    <h2>
-                      <a href="event-single.html">Help Children Raise Out Of Proverty</a>
-                    </h2>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col col-lg-3 col-md-6 col-12">
-            <div class="wpo-event-single">
-              <div class="wpo-event-item">
-                <div class="wpo-event-img">
-                  <img src="assets/images/event/img-3.jpg" alt="" />
-                </div>
-                <div class="wpo-event-content">
-                  <div class="wpo-event-text-top">
-                    <span>24 Nov, 2021</span>
-                    <h2>
-                      <a href="event-single.html">Provideing Education Is The Valuable Gift</a>
-                    </h2>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
+          <?php endforeach; ?>
+
+
+
+
         </div>
       </div>
     </div>

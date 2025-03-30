@@ -12,3 +12,6 @@
 2024-10-27 14:22:51	admin	https://schule-flaach-web.ddev.site/processwire/page/sort/	Updated sort for 2 pages (ProcessPageSort)
 2024-10-27 14:22:55	admin	https://schule-flaach-web.ddev.site/processwire/page/sort/	Updated sort for 2 pages (ProcessPageSort)
 2024-10-27 14:53:22	admin	https://schule-flaach-web.ddev.site/processwire/setup/template/removeFields	Deleted field "location" data in 0 row(s) from 0 page(s) using template "entry". [page-by-page] (Fields)
+2025-03-23 21:08:54	admin	https://schule-flaach-web.ddev.site/processwire/setup/template/removeFields	Deleted field "text" data in 1 row(s) from 1 page(s) using template "privacy-policy". [page-by-page] (Fields)
+2025-03-30 15:27:42	admin	https://schule-flaach-web.ddev.site/processwire/setup/template/removeFields	Deleted field "text" data in 0 row(s) from 0 page(s) using template "about-us". [page-by-page] (Fields)
+2025-03-30 15:41:00	admin	https://schule-flaach-web.ddev.site/processwire/setup/template/removeFields	Deleted field "text_repeating" data in 0 row(s) from 0 page(s) using template "entry". [page-by-page] (Fields)

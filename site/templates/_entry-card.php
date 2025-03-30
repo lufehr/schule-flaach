@@ -5,7 +5,7 @@ namespace ProcessWire; ?>
     <div class="wpo-event-item">
         <div class="wpo-event-content">
             <div class="wpo-event-text-top">
-                <?php if ($child->date_from): ?>
+                <!-- <?php if ($child->date_from): ?>
                     <span>
                         <?php if ($child->date_from && !$child->date_to): ?>
                             <?= $child->date_from ?>
@@ -24,7 +24,7 @@ namespace ProcessWire; ?>
                             <?php endif; ?>
                         <?php endif; ?>
                     </span>
-                <?php endif; ?>
+                <?php endif; ?> -->
                 <h2>
                     <a href="<?= $child->url ?>"><?= $child->title ?></a>
                 </h2>
@@ -32,7 +32,8 @@ namespace ProcessWire; ?>
                 <?php if ($child->text): ?>
 
                     <p>
-                        <?= $child->text ?>
+                        <!-- Publish an excerpt of the title -->
+                        <?= $sanitizer->truncate($child->text, 250) ?>
                     </p>
                 <?php endif; ?>
 

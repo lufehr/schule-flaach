@@ -29,7 +29,8 @@ namespace ProcessWire;
                         </p> -->
                         <div>
                             <p>Möchtest du etwas anbieten?</p>
-                            <p><a class="theme-btn-s2" href="<?= $pages->get('/ich-biete/formular')->url ?>">Zum
+                            <p><a class="theme-btn-s2 bg-green-sage-linear"
+                                    href="<?= $pages->get('/ich-biete/formular')->url ?>">Zum
                                     Formular</a></p>
                         </div>
                     </div>
@@ -37,7 +38,7 @@ namespace ProcessWire;
                 </div>
             </div>
 
-            <?php include('./_filter.php') ?>
+            <!-- <?php include('./_filter.php') ?> -->
 
             <div class="wpo-event-wrap" style="margin-top: 20px;">
                 <div class="row justify-content-center">

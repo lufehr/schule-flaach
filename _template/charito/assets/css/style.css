@@ -7030,6 +7030,7 @@ wpo-hero-section-6
 .wpo-event-area .wpo-event-wrap .wpo-event-img img {
   width: 100%;
 }
+
 .wpo-event-area .wpo-event-wrap .col:nth-child(2) .wpo-event-content,
 .wpo-event-area .wpo-event-wrap .col:nth-child(3) .wpo-event-content {
   padding-top: 10px;
@@ -7068,6 +7069,7 @@ wpo-hero-section-6
     line-height: 35px;
   }
 }
+
 .wpo-event-area .wpo-event-wrap .col:nth-child(2) .wpo-event-content span,
 .wpo-event-area .wpo-event-wrap .col:nth-child(3) .wpo-event-content span {
   color: #107569;

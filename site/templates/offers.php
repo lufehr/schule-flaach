@@ -1,5 +1,7 @@
 <?php
 namespace ProcessWire;
+
+
 ?>
 
 <div id="content">
@@ -24,12 +26,11 @@ namespace ProcessWire;
                         <span>Angebote...</span>
                         <h2>Angebote, ...</h2>
                         <p>
-                            Laborum do tempor veniam irure anim. Laborum do tempor veniam
-                            irure anim.
+                            Hast du etwas anzubieten?
                         </p>
                         <div>
-                            <p>Suchst du nach etwas?</p>
-                            <p><a class="theme-btn-s2" href="<?= $pages->get('/angebote/formular')->url ?>">Zum
+                            <p><a class="theme-btn-s2 bg-green-sage-linear"
+                                    href="<?= $pages->get('/angebote/formular')->url ?>">Zum
                                     Formular</a></p>
                         </div>
                     </div>
