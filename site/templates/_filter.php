@@ -62,7 +62,7 @@ if ($pageUrl === "/angebote/") {
                 </select>
             </div>
             <div style="width: 200px;">
-                <div><label>Angebotstyp</label></div>
+                <div><label>Kategorie</label></div>
                 <select name="offer_type" class="form-control">
                     <option <?= $offer_type === "0" ? "selected" : "" ?> value="0">Alle</option>
                     <option <?= $offer_type === "1" ? "selected" : "" ?> value="1">Sport</option>
@@ -76,12 +76,13 @@ if ($pageUrl === "/angebote/") {
                 <select name="location" class="form-control">
                     <option value="0">Alle</option>
                     <option value="1">Flaach</option>
-                    <option value="2">Berg am Irchel</option>
-                    <option value="3">Buch am Irchel</option>
-                    <option value="4">Volken</option>
-                    <option value="5">Dorf</option>
-                    <option value="6">Desibach</option>
-                    <option value="7">Gräslikon</option>
+                    <option value="2">Volken</option>
+                    <option value="3">Dorf</option>
+                    <option value="4">Berg am Irchel</option>
+                    <option value="5">Buch am Irchel</option>
+                    <option value="6">Gräslikon</option>
+                    <option value="7">Wiler</option>
+                    <option value="8">Desibach</option>
                 </select>
             </div>
 
@@ -89,9 +90,12 @@ if ($pageUrl === "/angebote/") {
                 <div><label>Alter</label></div>
                 <select name="age" class="form-control">
                     <option value="0">Alle</option>
-                    <option value="1">0-5</option>
-                    <option value="2">6-10</option>
-                    <option value="3">11-15</option>
+                    <option value="1">0-4</option>
+                    <option value="2">4-7</option>
+                    <option value="3">7-14</option>
+                    <option value="4">15-8</option>
+                    <option value="5">18-24</option>
+                    <option value="6">24+</option>
                 </select>
             </div>
 

@@ -11,7 +11,7 @@ $entries = $pages->get('/ich-suche/eintraege')->children("sort=-created, publish
       <div class="row">
         <div class="col-12">
           <div class="wpo-breadcumb-wrap">
-            <h2>Ich suche...</h2>
+            <h2>Ich suche</h2>
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@ $entries = $pages->get('/ich-suche/eintraege')->children("sort=-created, publish
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <div class="wpo-section-title">
-            <span>Ich suche...</span>
+            <span>Ich suche</span>
             <h2>Fahrgemeinschaft, Kinderkleider, Schlittschuhe, ...</h2>
             <!-- <p>
               Laborum do tempor veniam irure anim. Laborum do tempor veniam

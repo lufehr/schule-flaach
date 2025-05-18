@@ -1,7 +1,5 @@
 <?php
 namespace ProcessWire;
-
-
 ?>
 
 <div id="content">
@@ -10,7 +8,7 @@ namespace ProcessWire;
             <div class="row">
                 <div class="col-12">
                     <div class="wpo-breadcumb-wrap">
-                        <h2>Angebote</h2>
+                        <h2>Blog</h2>
                     </div>
                 </div>
             </div>
@@ -23,32 +21,25 @@ namespace ProcessWire;
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="wpo-section-title">
-                        <span>Angebote</span>
-                        <h2>Angebote, ...</h2>
+                        <span>Blog</span>
+                        <h2>Willkommen im Blog der Bildungslandschaft Flaachtal</h2>
                         <p>
-                            Hast du etwas anzubieten?
+                            In unserem Blog geben wir Einblicke in Projekte, Veranstaltungen und Entwicklungen
+                            rund um die Bildungslandschaft Flaachtal. Hier berichten wir über spannende
+                            Angebote, erfolgreiche Kooperationen und aktuelle Themen, die unsere Bildungsregion
+                            bewegen. Wir laden alle Interessierten ein, mitzulesen und sich inspirieren zu lassen!
                         </p>
-                        <div>
-                            <p><a class="theme-btn-s2 bg-green-sage-linear"
-                                    href="<?= $pages->get('/angebote/formular')->url ?>">Zum
-                                    Formular</a></p>
-                        </div>
                     </div>
 
                 </div>
             </div>
 
-            <?php include('./_filter.php') ?>
 
             <div class="wpo-event-wrap" style="margin-top: 20px;">
                 <div class="row justify-content-center">
                     <div class="col col-lg-10">
-                        <?php if (count($entries) === 0): ?>
-                            <p>Es wurden keine Einträge gefunden.</p>
-                        <?php endif; ?>
-
-                        <?php foreach ($entries as $child): ?>
-                            <?php include('./_entry-card.php') ?>
+                        <?php foreach ($page->children as $child): ?>
+                            <?php include('./_blog-card.php') ?>
                         <?php endforeach; ?>
                     </div>
                 </div>

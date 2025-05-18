@@ -7,7 +7,7 @@ namespace ProcessWire; ?>
       <div class="row">
         <div class="col-12">
           <div class="wpo-breadcumb-wrap">
-            <h2>Ich biete...</h2>
+            <h2>Ich biete</h2>
           </div>
         </div>
       </div>

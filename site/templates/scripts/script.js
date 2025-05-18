@@ -724,7 +724,7 @@
     ==========================================================================*/
   $(window).on("scroll", function () {
     if ($(".wpo-site-header").length) {
-      stickyMenu($(".wpo-site-header .navigation"), "sticky-on");
+      // stickyMenu($(".wpo-site-header .navigation"), "sticky-on");
     }
 
     toggleBackToTopBtn();
@@ -778,6 +778,6 @@
 
   // When the user scrolls the page, execute the stickyNavbar function
   window.onscroll = function () {
-    stickyNavbar();
+    // stickyNavbar();
   };
 })(window.jQuery);

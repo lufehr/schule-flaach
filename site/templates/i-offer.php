@@ -8,7 +8,7 @@ namespace ProcessWire;
             <div class="row">
                 <div class="col-12">
                     <div class="wpo-breadcumb-wrap">
-                        <h2>Ich biete...</h2>
+                        <h2>Ich biete</h2>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@ namespace ProcessWire;
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="wpo-section-title">
-                        <span>Ich biete...</span>
+                        <span>Ich biete</span>
                         <h2>Fahrgemeinschaft, Kinderkleider, Schlittschuhe, ...</h2>
                         <!-- <p>
                             Laborum do tempor veniam irure anim. Laborum do tempor veniam

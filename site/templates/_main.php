@@ -45,22 +45,10 @@ $home = $pages->get('/'); /** @var HomePage $home */
 
   <!-- start page-wrapper -->
   <div class="page-wrapper">
-    <!-- start preloader -->
-    <!-- <div class="preloader">
-        <div class="vertical-centered-box">
-          <div class="content">
-            <div class="loader-circle"></div>
-            <div class="loader-line-mask">
-              <div class="loader-line"></div>
-            </div>
-            <img src="<?php echo $config->urls->templates; ?>images/preloader.png" alt="" />
-          </div>
-        </div>
-      </div> -->
-    <!-- end preloader -->
+
     <!-- Start header -->
-    <header id="header" class="wpo-site-header">
-      <nav class="navigation navbar navbar-expand-lg navbar-light">
+    <header id="header" class="wpo-site-header sticky-on">
+      <nav class="navigation navbar navbar-expand-lg navbar-light sticky-on">
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
@@ -75,8 +63,26 @@ $home = $pages->get('/'); /** @var HomePage $home */
             </div>
             <div class="col-lg-3 col-md-6 col-6">
               <div class="navbar-header">
-                <a class="navbar-brand" href="<?= $pages->get('/')->url() ?>"><img
-                    src="<?php echo $config->urls->templates; ?>images/logo-bildungslandschaft.png" alt="" /></a>
+                <a class="navbar-brand" href="<?= $pages->get('/')->url() ?>">
+                  <svg width="255" height="100" viewBox="0 0 255 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#96a57c" />
+                        <stop offset="50%" stop-color="#b87333" />
+                        <stop offset="100%" stop-color="#6c8099" />
+                      </linearGradient>
+                    </defs>
+                    <rect width="100%" height="100%" fill="white" />
+                    <text x="50%" y="42%" dominant-baseline="middle" text-anchor="middle" font-size="18"
+                      font-family="Arial, sans-serif" fill="url(#textGradient)">
+                      BILDUNGSLANDSCHAFT
+                    </text>
+                    <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle" font-size="18"
+                      font-family="Arial, sans-serif" fill="url(#textGradient)">
+                      FLAACHTAL
+                    </text>
+                  </svg>
+                </a>
               </div>
             </div>
             <div class="col-lg-6 col-md-1 col-1">
@@ -98,6 +104,10 @@ $home = $pages->get('/'); /** @var HomePage $home */
                   <li>
                     <a class="<?= str_contains($page->url, '/agenda') ? 'active' : '' ?>"
                       href="<?= $pages->get('agenda')->url ?>">Agenda</a>
+                  </li>
+                  <li>
+                    <a class="<?= str_contains($page->url, '/blog') ? 'active' : '' ?>"
+                      href="<?= $pages->get('blog')->url ?>">Blog</a>
                   </li>
                   <li><a class="<?= str_contains($page->url, '/ueber-uns') ? 'active' : '' ?>"
                       href="<?= $pages->get('ueber-uns')->url ?>">Über uns</a></li>
@@ -174,51 +184,14 @@ $home = $pages->get('/'); /** @var HomePage $home */
                 <div class="contact-ft">
 
                   <ul>
-                    <li><i class="fi flaticon-mail"></i>kontakt@bildungslandschaft-flaachtal.ch</li>
-                    <li>
-                      <i class="fi flaticon-phone-call"></i>052 xxx xx xx
-                    </li>
-                    <li>
-                      <i class="fi flaticon-location"></i>Schule Flaachtal
-                    </li>
+                    <li><i class="fi flaticon-mail"></i>netzwerk@schuleflaachtal.ch</li>
+
+
                   </ul>
                 </div>
               </div>
             </div>
 
-            <!-- <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
-              <div class="widget instagram">
-                <div class="widget-title">
-                  <h3>Projects</h3>
-                </div>
-                <ul class="d-flex">
-                  <li>
-                    <a href="project-single.html"><img
-                        src="<?php echo $config->urls->templates; ?>images/instragram/1.jpg" alt="" /></a>
-                  </li>
-                  <li>
-                    <a href="project-single.html"><img
-                        src="<?php echo $config->urls->templates; ?>images/instragram/2.jpg" alt="" /></a>
-                  </li>
-                  <li>
-                    <a href="project-single.html"><img
-                        src="<?php echo $config->urls->templates; ?>images/instragram/3.jpg" alt="" /></a>
-                  </li>
-                  <li>
-                    <a href="project-single.html"><img
-                        src="<?php echo $config->urls->templates; ?>images/instragram/4.jpg" alt="" /></a>
-                  </li>
-                  <li>
-                    <a href="project-single.html"><img
-                        src="<?php echo $config->urls->templates; ?>images/instragram/5.jpg" alt="" /></a>
-                  </li>
-                  <li>
-                    <a href="project-single.html"><img
-                        src="<?php echo $config->urls->templates; ?>images/instragram/6.jpg" alt="" /></a>
-                  </li>
-                </ul>
-              </div>
-            </div> -->
           </div>
         </div>
         <!-- end container -->

@@ -19,3 +19,5 @@
 2025-03-25 21:19:39	?	?	User 'admin' - Session timed out (session older than 86400 seconds) (IP: 172.17.0.5)
 2025-03-30 12:49:08	admin	https://schule-flaach-web.ddev.site/processwire/login/	Successful login for 'admin'
 2025-03-30 13:43:22	admin	https://schule-flaach-web.ddev.site/processwire/login/?id=1059	Successful login for 'admin'
+2025-03-30 17:59:12	admin	https://schule-flaach-web.ddev.site/processwire/login/logout/	Logout for 'admin'
+2025-03-30 17:59:19	admin	https://schule-flaach-web.ddev.site/processwire/login/	Successful login for 'admin'

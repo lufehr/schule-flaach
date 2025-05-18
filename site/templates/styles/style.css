@@ -12455,4 +12455,20 @@ h6 {
   font-family: "Roboto Slab", serif;
 }
 
+.wpo-event-details-text {
+  margin-top: 0 !important;
+}
+
+.single-blog-sidebar-date {
+  font-size: 0.9rem;
+  margin-top: -8px;
+}
+
+/* .c-sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} */
+
 /*# sourceMappingURL=style.css.map */
