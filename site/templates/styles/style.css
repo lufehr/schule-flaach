@@ -8358,7 +8358,7 @@ wpo-hero-section-6
 @media (max-width: 991px) {
   .wpo-event-area-s2 .wpo-event-single .wpo-event-item {
     margin-bottom: 30px;
-    min-height: 370px;
+    /* min-height: 370px; */
   }
 }
 .wpo-event-area-s2 .wpo-event-single .wpo-event-item .wpo-event-img {
