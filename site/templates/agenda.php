@@ -39,9 +39,21 @@ namespace ProcessWire;
             <div class="wpo-event-wrap" style="margin-top: 20px;">
                 <div class="row justify-content-center">
                     <div class="col col-lg-10">
-                        <?php foreach ($pages->get('/agenda/eintraege')->children as $child): ?>
+
+                        <?php
+                        $today = date('Y-m-d');
+                        $entries = $pages->get('/agenda/eintraege')->children("date_from>=$today, sort=date_from");
+                        ?>
+                        <?php if ($entries->count() == 0): ?>
+                            <div class="alert alert-info" role="alert">
+                                Es sind keine Einträge vorhanden.
+                            </div>
+                        <?php endif; ?>
+                        <?php foreach ($entries as $child): ?>
                             <?php include('./_agenda-card.php') ?>
                         <?php endforeach; ?>
+
+
                     </div>
                 </div>
             </div>
