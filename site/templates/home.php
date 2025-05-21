@@ -80,7 +80,7 @@ namespace ProcessWire;
       <div class="wpo-event-wrap">
         <div class="row">
 
-          <?php foreach ($pages->get('/agenda')->children("limit=4") as $child): ?>
+          <?php foreach ($pages->get('/agenda/eintraege')->children("limit=4") as $child): ?>
 
             <div class="col col-lg-3 col-md-6 col-12">
               <div class="wpo-event-single">
