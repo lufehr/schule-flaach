@@ -56,7 +56,7 @@ namespace ProcessWire;
                             <h3>Weitere Termine</h3>
                             <div class="posts">
 
-                                <?php foreach ($pages->get('/agenda')->children("limit=4") as $child): ?>
+                                <?php foreach ($pages->get('/agenda/eintraege')->children("limit=4") as $child): ?>
 
 
 
@@ -65,6 +65,7 @@ namespace ProcessWire;
                                             <h4><a href="<?= $child->url() ?>">
                                                     <?= $child->title ?>
                                                 </a></h4>
+                                            <span><?= $child->date_from ?></span>
                                         </div>
                                     </div>
 

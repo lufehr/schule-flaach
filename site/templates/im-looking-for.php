@@ -26,10 +26,7 @@ $entries = $pages->get('/ich-suche/eintraege')->children("sort=-created, publish
           <div class="wpo-section-title">
             <span>Ich suche</span>
             <h2>Fahrgemeinschaft, Kinderkleider, Schlittschuhe, ...</h2>
-            <!-- <p>
-              Laborum do tempor veniam irure anim. Laborum do tempor veniam
-              irure anim.
-            </p> -->
+
             <div>
               <p>Suchst du nach etwas?</p>
               <p><a class="theme-btn-s2 bg-green-sage-linear" href="<?= $pages->get('/ich-suche/formular')->url ?>">Zum
@@ -39,6 +36,8 @@ $entries = $pages->get('/ich-suche/eintraege')->children("sort=-created, publish
 
         </div>
       </div>
+
+      <?php include('./_filter.php') ?>
 
 
       <div class="wpo-event-wrap" style="margin-top: 20px;">

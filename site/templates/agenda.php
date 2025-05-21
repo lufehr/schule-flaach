@@ -23,6 +23,13 @@ namespace ProcessWire;
                     <div class="wpo-section-title">
                         <span>Agenda</span>
                         <h2>Termine und Veranstaltungen</h2>
+
+                        <div>
+                            <p>Möchtest du eine Veranstaltungen / Schnuppertrainings anbieten?</p>
+                            <p><a class="theme-btn-s2 bg-green-sage-linear"
+                                    href="<?= $pages->get('/agenda/formular')->url ?>">Zum
+                                    Formular</a></p>
+                        </div>
                     </div>
 
                 </div>
@@ -32,7 +39,7 @@ namespace ProcessWire;
             <div class="wpo-event-wrap" style="margin-top: 20px;">
                 <div class="row justify-content-center">
                     <div class="col col-lg-10">
-                        <?php foreach ($page->children as $child): ?>
+                        <?php foreach ($pages->get('/agenda/eintraege')->children as $child): ?>
                             <?php include('./_agenda-card.php') ?>
                         <?php endforeach; ?>
                     </div>

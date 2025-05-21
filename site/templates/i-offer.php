@@ -23,10 +23,7 @@ namespace ProcessWire;
                     <div class="wpo-section-title">
                         <span>Ich biete</span>
                         <h2>Fahrgemeinschaft, Kinderkleider, Schlittschuhe, ...</h2>
-                        <!-- <p>
-                            Laborum do tempor veniam irure anim. Laborum do tempor veniam
-                            irure anim.
-                        </p> -->
+
                         <div>
                             <p>Möchtest du etwas anbieten?</p>
                             <p><a class="theme-btn-s2 bg-green-sage-linear"
@@ -38,7 +35,7 @@ namespace ProcessWire;
                 </div>
             </div>
 
-            <!-- <?php include('./_filter.php') ?> -->
+            <?php include('./_filter.php') ?>
 
             <div class="wpo-event-wrap" style="margin-top: 20px;">
                 <div class="row justify-content-center">

@@ -48,19 +48,21 @@ if ($pageUrl === "/angebote/") {
 <div class="container" style="display: flex; justify-content: center; margin-bottom: 40px;">
     <div class="row justify-content-center">
         <form style="display: flex; gap: 20px;">
-            <div style="width: 200px;">
-                <div><label>Wochentag</label></div>
-                <select name="weekday" class="form-control">
-                    <option <?= $weekday === "0" ? "selected" : "" ?> value="0">Alle</option>
-                    <option <?= $weekday === "1" ? "selected" : "" ?> value="1">Montag</option>
-                    <option <?= $weekday === "2" ? "selected" : "" ?> value="2">Dienstag</option>
-                    <option <?= $weekday === "3" ? "selected" : "" ?> value="3">Mittwoch</option>
-                    <option <?= $weekday === "4" ? "selected" : "" ?> value="4">Donnerstag</option>
-                    <option <?= $weekday === "5" ? "selected" : "" ?> value="5">Freitag</option>
-                    <option <?= $weekday === "6" ? "selected" : "" ?> value="6">Samstag</option>
-                    <option <?= $weekday === "7" ? "selected" : "" ?> value="7">Sonntag</option>
-                </select>
-            </div>
+            <?php if ($pageUrl === "/angebote/"): ?>
+                <div style="width: 200px;">
+                    <div><label>Wochentag</label></div>
+                    <select name="weekday" class="form-control">
+                        <option <?= $weekday === "0" ? "selected" : "" ?> value="0">Alle</option>
+                        <option <?= $weekday === "1" ? "selected" : "" ?> value="1">Montag</option>
+                        <option <?= $weekday === "2" ? "selected" : "" ?> value="2">Dienstag</option>
+                        <option <?= $weekday === "3" ? "selected" : "" ?> value="3">Mittwoch</option>
+                        <option <?= $weekday === "4" ? "selected" : "" ?> value="4">Donnerstag</option>
+                        <option <?= $weekday === "5" ? "selected" : "" ?> value="5">Freitag</option>
+                        <option <?= $weekday === "6" ? "selected" : "" ?> value="6">Samstag</option>
+                        <option <?= $weekday === "7" ? "selected" : "" ?> value="7">Sonntag</option>
+                    </select>
+                </div>
+            <?php endif; ?>
             <div style="width: 200px;">
                 <div><label>Kategorie</label></div>
                 <select name="offer_type" class="form-control">
@@ -68,7 +70,10 @@ if ($pageUrl === "/angebote/") {
                     <option <?= $offer_type === "1" ? "selected" : "" ?> value="1">Sport</option>
                     <option <?= $offer_type === "2" ? "selected" : "" ?> value="2">Kunst</option>
                     <option <?= $offer_type === "3" ? "selected" : "" ?> value="3">Förderung</option>
-                    <option <?= $offer_type === "4" ? "selected" : "" ?> value="4">Andere</option>
+                    <option <?= $offer_type === "4" ? "selected" : "" ?> value="4">Musik</option>
+                    <option <?= $offer_type === "5" ? "selected" : "" ?> value="5">Betreuung</option>
+                    <option <?= $offer_type === "6" ? "selected" : "" ?> value="6">Fahrgemeinschaft</option>
+                    <option <?= $offer_type === "100" ? "selected" : "" ?> value="100">Andere</option>
                 </select>
             </div>
             <div style="width: 200px;">
@@ -91,11 +96,11 @@ if ($pageUrl === "/angebote/") {
                 <select name="age" class="form-control">
                     <option value="0">Alle</option>
                     <option value="1">0-4</option>
-                    <option value="2">4-7</option>
-                    <option value="3">7-14</option>
-                    <option value="4">15-8</option>
-                    <option value="5">18-24</option>
-                    <option value="6">24+</option>
+                    <option value="2">4-8</option>
+                    <option value="3">8-12</option>
+                    <option value="4">12-16</option>
+                    <option value="5">16-20</option>
+                    <option value="6">20+</option>
                 </select>
             </div>
 
