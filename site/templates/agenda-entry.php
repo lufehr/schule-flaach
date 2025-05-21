@@ -40,6 +40,43 @@ namespace ProcessWire;
                                 <div class="c-text"><?= $page->date_from ?></div>
                             </div>
 
+                            <div style="margin-top: 10px;">
+                                <div class="c-label">Zeit</div>
+                                <div class="c-text"><?= $page->time_from ?></div>
+                            </div>
+
+                            <div style="margin-top: 10px;">
+                                <div class="c-label">Ort</div>
+                                <div class="c-text"><?= $page->location->title ?></div>
+                            </div>
+
+                            <div style="margin-top: 10px;">
+                                <div class="c-label">Kontaktperson</div>
+                                <div class="c-text"><?= $page->contact_person ?></div>
+                            </div>
+
+                            <div style="margin-top: 10px;">
+                                <div class="c-label">E-Mail</div>
+                                <div class="c-text"><?= $page->email ?></div>
+                            </div>
+
+                            <div style="margin-top: 10px;">
+                                <div class="c-label">Website</div>
+                                <div class="c-text"><?= $page->website ?></div>
+                            </div>
+
+                            <div style="margin-top: 10px;">
+                                <div class="c-label">Alter</div>
+                                <div class="c-text"><?= $page->age->title ?></div>
+                            </div>
+
+                            <div style="margin-top: 10px;">
+                                <div class="c-label">Kategorie</div>
+                                <div class="c-text"><?= $page->offer_type->title ?></div>
+                            </div>
+
+
+
 
 
 
